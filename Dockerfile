@@ -11,7 +11,7 @@ RUN npm install
 COPY . .
 
 # 不要在 build 阶段跑 npm run deploy，会因为环境变量等各种问题失败
-# RUN npm run deploy
+RUN npm run deploy
 
 # 直接启动 bot
 CMD [ "node", "index.js" ]
