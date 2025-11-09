@@ -25,13 +25,13 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
-			identifier: "", //- Used for indentifier in stats commands.
-			password: "", //- The password of the lavalink server.
-			host: "", //- The host name or IP of the lavalink server.
-			port: 443, // The port that lavalink is listening to. This must be a number!
-			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
-			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
+			identifier: "AjieDev-SSL", // 名字随便起，方便识别
+			host: "lava-v4.ajieblogs.eu.org", // 主机名
+			port: 443, // 端口
+			password: "https://dsc.gg/ajiedevserver", // 密码
+			retryAmount: 200,
+			retryDelay: 40,
+			secure: true, // 因为是 SSL 节点
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
