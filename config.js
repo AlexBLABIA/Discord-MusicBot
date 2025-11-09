@@ -25,13 +25,13 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
-			identifier: "AjieDev-SSL", // 名字随便起，方便识别
-			host: "lava-v4.ajieblogs.eu.org", // 主机名
-			port: 443, // 端口
-			password: "https://dsc.gg/ajiedevserver", // 密码
+		  	identifier: "Serenetia-v4",
+		  	host: "lavalinkv4.serenetia.com",
+		  	port: 443,
+		  	password: "https://dsc.gg/ajiedevserver",
+		 	secure: true,
 			retryAmount: 200,
 			retryDelay: 40,
-			secure: true, // 因为是 SSL 节点
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
