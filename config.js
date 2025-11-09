@@ -25,10 +25,10 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 nodes: [
 	  {
-	    identifier: "AjieDev-V3",
-	    host: "lava-v3.ajieblogs.eu.org", // 不要加 http:// 或 https://
+	    identifier: "lavalink_v3.muzykant.xyz",
+	    host: "lavalink_v3.muzykant.xyz", // 
 	    port: 443,                               // 通过 HTTPS 入口
-	    password: "https://dsc.gg/ajidevserver",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
+	    password: "https://discord.gg/v6sdrD9kPh",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
 	    retryAmount: 10,
 	    retryDelay: 60000,
 	    secure: true,                            // 一定要 true = 用 wss://
