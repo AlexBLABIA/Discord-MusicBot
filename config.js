@@ -25,9 +25,9 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
-			identifier: "TriniumHost Lavalink v4 SSL", //- Used for indentifier in stats commands.
-			password: "free", //- The password of the lavalink server.
-			host: "lavalink-v4.triniumhost.com", //- The host name or IP of the lavalink server.
+			identifier: "", //- Used for indentifier in stats commands.
+			password: "https://dsc.gg/ajidevserver", //- The password of the lavalink server.
+			host: lava-v4.ajieblogs.eu.org, //- The host name or IP of the lavalink server.
 			port: 443, // The port that lavalink is listening to. This must be a number!
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
