@@ -26,14 +26,15 @@ module.exports = {
 	nodes: [
 	  {
 	    identifier: "Render-Lavalink",
-	    host: "my-render-lavalink.onrender.com", // 不要带 http/https
-	    port: 80,                                // 改成 80
-	    password: "SuperStrongPass_2025",        // 和 LAVALINK_PASSWORD 一样
+	    host: "my-render-lavalink.onrender.com", // 不要加 http:// 或 https://
+	    port: 443,                               // 通过 HTTPS 入口
+	    password: "SuperStrongPass_2025",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
 	    retryAmount: 10,
 	    retryDelay: 60000,
-	    secure: false,                           // 改成 false（走 ws://）
+	    secure: true,                            // 一定要 true = 用 wss://
 	  },
 	],
+
 
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
 	presence: {
