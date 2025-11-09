@@ -26,14 +26,15 @@ module.exports = {
 	nodes: [
 	  {
 	    identifier: "Render-Lavalink",
-	    host: "my-render-lavalink.onrender.com", // 这里用你日志里的那个域名，不要加 https://
-	    port: 443,                               // 走 Render 的 HTTPS 入口
-	    password: "SuperStrongPass_2025",        // 和 LAVALINK_PASSWORD 完全一致
-	    retryAmount: 10,                         // 不要再 200 那么夸张
-	    retryDelay: 60000,                       // 断线 60 秒后再重连
-	    secure: true,                            // 很重要：true，因为是 https/wss
+	    host: "my-render-lavalink.onrender.com", // 不要带 http/https
+	    port: 80,                                // 改成 80
+	    password: "SuperStrongPass_2025",        // 和 LAVALINK_PASSWORD 一样
+	    retryAmount: 10,
+	    retryDelay: 60000,
+	    secure: false,                           // 改成 false（走 ws://）
 	  },
 	],
+
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
 	presence: {
 		// PresenceData object | https://discord.js.org/#/docs/main/stable/typedef/PresenceData
