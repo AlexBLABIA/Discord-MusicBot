@@ -29,7 +29,7 @@ module.exports = {
 			host: "lava-v4.ajieblogs.eu.org", //- The host name or IP of the lavalink server.
 			port: 443, // The port that lavalink is listening to. This must be a number!
 			password: "https://dsc.gg/ajidevserver", //- The password of the lavalink server.
-			retryAmount: 443, //- The amount of times to retry connecting to the node if connection got dropped.
+			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
 			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
 		},
