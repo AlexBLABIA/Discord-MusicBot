@@ -25,13 +25,13 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 nodes: [
 	  {
-	    identifier: "lavalink-v3.triniumhost.com",
-	    host: "lavalink_v3.muzykant.xyz", // 
-	    port: 443,                               // 通过 HTTPS 入口
-	    password: "free",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
+	    identifier: "Free lavalink v3",
+	    host: "107.150.58.122", // 
+	    port: 4006,                               // 通过 HTTPS 入口
+	    password: "https://discord.gg/mjS5J2K3ep",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
 	    retryAmount: 10,
 	    retryDelay: 60000,
-	    secure: true,                            // 一定要 true = 用 wss://
+	    secure: false,                            // 一定要 true = 用 wss://
 	  },
 	],
 
