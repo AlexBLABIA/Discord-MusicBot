@@ -24,15 +24,15 @@ module.exports = {
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
-		{
-		  	identifier: "Serenetia-v4",
-		  	host: "lavalinkv4.serenetia.com",
-		  	port: 443,
-		  	password: "https://dsc.gg/ajiedevserver",
-		 	secure: true,
-			retryAmount: 200,
-			retryDelay: 40,
-		},
+	  {
+	    identifier: "Render-Lavalink",
+	    host: "my-render-lavalink.onrender.com", // 这里用你日志里的那个域名，不要加 https://
+	    port: 443,                               // 走 Render 的 HTTPS 入口
+	    password: "SuperStrongPass_2025",        // 和 LAVALINK_PASSWORD 完全一致
+	    retryAmount: 10,                         // 不要再 200 那么夸张
+	    retryDelay: 60000,                       // 断线 60 秒后再重连
+	    secure: true,                            // 很重要：true，因为是 https/wss
+	  },
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
 	presence: {
