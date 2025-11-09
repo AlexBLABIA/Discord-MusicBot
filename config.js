@@ -23,12 +23,12 @@ module.exports = {
 	website: "https://discord-musicbot-ytoa.onrender.com", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
-	nodes: [
+nodes: [
 	  {
-	    identifier: "AjieDev-V3",
-	    host: "lava-v3.ajieblogs.eu.org", // 不要加 http:// 或 https://
+	    identifier: "Render-Lavalink",
+	    host: "my-render-lavalink.onrender.com", // 不要加 http:// 或 https://
 	    port: 443,                               // 通过 HTTPS 入口
-	    password: "https://dsc.gg/ajidevserver",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
+	    password: "SuperStrongPass_2025",        // 必须和 my-render-lavalink 的 LAVALINK_PASSWORD 一模一样
 	    retryAmount: 10,
 	    retryDelay: 60000,
 	    secure: true,                            // 一定要 true = 用 wss://
